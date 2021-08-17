@@ -2566,10 +2566,14 @@ input, select, textarea {
 			margin: 0 0 0.5em 0;
 		}
 
-		.work-item p {
+		.work-item p, li {
 			font-size: 0.8em;
 			line-height: 1.5em;
 			margin: 0;
+		}
+
+		.work-item p + p, ul {
+			margin-top: 1em;
 		}
 
 /* Header */
