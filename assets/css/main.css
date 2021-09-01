@@ -2561,18 +2561,33 @@ input, select, textarea {
 			margin: 0 0 1.5em 0;
 		}
 
-		.work-item h3 {
-			font-size: 1em;
+		.work-item h2, h3, h4 ,h5{
 			margin: 0 0 0.5em 0;
 		}
 
-		.work-item p, li {
+		.work-item h2 {
+			font-size: 1.2em;
+		}
+
+		.work-item h3 {
+			font-size: 1em;
+		}
+
+		.work-item h4 {
+			font-size: 0.85em;
+		}
+
+		.work-item h5 {
+			font-size: 0.75em;
+		}
+
+		.work-item p, ul {
 			font-size: 0.8em;
 			line-height: 1.5em;
 			margin: 0;
 		}
 
-		.work-item p + p, ul {
+		.work-item p + p, ul, h4 {
 			margin-top: 1em;
 		}
 
