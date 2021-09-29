@@ -2146,6 +2146,14 @@ input, select, textarea {
 				width: 100%;
 			}
 
+/* Frame */
+
+		.frame.fit {
+					display: block;
+					margin: 0 0 2em 0;
+					width: 100%;
+				}
+
 /* List */
 
 	ol {
@@ -2588,6 +2596,10 @@ input, select, textarea {
 		}
 
 		.work-item p + p, ul, h4 {
+			margin-top: 1em;
+		}
+
+		.work-item ul + p {
 			margin-top: 1em;
 		}
 
